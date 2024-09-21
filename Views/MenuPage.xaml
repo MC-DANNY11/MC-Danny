@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MC_Danny.Views.MenuPage"
+             Title="Menu Lateral"
+             BackgroundColor="Transparent">
+    <Grid>
+        <!-- Fondo semitransparente -->
+        <StackLayout BackgroundColor="#0FB600"
+                 Opacity="0.4"
+                 >
+            <Button HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    x:Name="btncerrar" Clicked="btncerrar_Clicked"
+                    Background="#0FB600"/>
+        </StackLayout>
+        <!-- Menú lateral -->
+        <ContentView x:Name="MenuContainer"
+                     BackgroundColor="#0FB600"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="Start"
+                     WidthRequest="250"
+                     TranslationX="-250">
+            <!-- Inicialmente fuera de la pantalla -->
+            <StackLayout Padding="0"
+                         VerticalOptions="FillAndExpand">
+                <Frame Padding="0"
+                       BackgroundColor="Transparent"
+                       VerticalOptions="FillAndExpand"
+                       HasShadow="False">
+                    <StackLayout Padding="10" Spacing="6">
+                        <Image HeightRequest="100"
+                               WidthRequest="100"
+                          
+                               Source="https://i.ibb.co/xYP3tyq/1715188507917-removebg-2-Photoroom-removebg-preview.png" />
+                        <Button Text="Perfil"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                        <Button Text="Config"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                        <Button Text="Ayuda"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                        <Button Text="Pedidos"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                        <Button Text="Contraseña"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                        <Button Text="CerrarSessión"
+                                ImageSource="https://i.ibb.co/P5V2Pvr/usuario-de-perfil.png"
+                                HeightRequest="50"
+                                TextColor="#0FB600"
+                                BackgroundColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                VerticalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ContentView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MC_Danny.Views.V_Inicio"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <!-- Barra superior fija -->
+        <StackLayout Orientation="Horizontal"
+                     BackgroundColor="White"
+                     HeightRequest="50"
+                     VerticalOptions="Start"
+                     Spacing="0"
+                     Padding="0,0,0,0">
+            <ImageButton Source="https://i.ibb.co/GxX1KQD/lista.png"
+                         HeightRequest="30"
+                         WidthRequest="30"
+                         Margin="10,0,0,0"
+                         VerticalOptions="Center"
+                         Clicked="OnMenuClicked" />
+            <Label Text="MC Danny"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   FontFamily="Lemon"
+                   FontSize="20"
+                   TextColor="{StaticResource Primario}" />
+            <ImageButton Source="https://i.ibb.co/M7CssZ6/campana-1.png"
+                         HeightRequest="30"
+                         WidthRequest="30"
+                         Margin="0,0,10,0"
+                         VerticalOptions="Center"
+                         Clicked="OnMenuClicked" />
+        </StackLayout>
+        <!-- Contenido desplazable -->
+        <ScrollView VerticalOptions="FillAndExpand"
+                    Grid.Row="1"
+                    Padding="0"
+                    Margin="0,50,0,0">
+            <StackLayout Orientation="Vertical"
+                         Spacing="3"
+                         BackgroundColor="#eae5e8">
+                <StackLayout Padding="15,5,15,0">
+                    <Frame Padding="15,0"
+                           HeightRequest="40"
+                           BorderColor="{StaticResource Primario}">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry Placeholder="Ingresar para Buscar"
+                                   PlaceholderColor="Gray"
+                                   HorizontalOptions="StartAndExpand"
+                                   TextColor="DarkSlateGray" />
+                            <ImageButton Source="https://i.ibb.co/SdPY4hT/busqueda-de-lupa.png"
+                                         BackgroundColor="Black"
+                                         HeightRequest="25"
+                                         WidthRequest="25"
+                                         HorizontalOptions="End" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"
+                             Spacing="0"
+                             Padding="15,0">
+                    <Label Text="Productos en Promoción"
+                           TextColor="{StaticResource Primario}"
+                           FontFamily="Lemon" />
+                    <ScrollView Orientation="Horizontal"
+                                HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="10"
+                                     Padding="1,0">
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="-40%"
+                                           FontFamily="Lemon"
+                                           TextColor="Red"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/F7M56Gt/entrenador.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="-10%"
+                                           FontFamily="Lemon"
+                                           TextColor="Red"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/pfZpkrr/pantalones-cortos.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="-20%"
+                                           FontFamily="Lemon"
+                                           TextColor="Red"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/ZHZxT40/reloj-de-pulsera-1.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="-40%"
+                                           FontFamily="Lemon"
+                                           TextColor="Red"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"
+                             Spacing="0"
+                             Padding="15,0">
+                    <Label Text="Productos Nuevos"
+                           TextColor="{StaticResource Primario}"
+                           FontFamily="Lemon" />
+                    <ScrollView Orientation="Horizontal"
+                                HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="10"
+                                     Padding="1,0">
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="New"
+                                           FontFamily="Lemon"
+                                           TextColor="{StaticResource Primario}"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/F7M56Gt/entrenador.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="New"
+                                           FontFamily="Lemon"
+                                           TextColor="{StaticResource Primario}"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/pfZpkrr/pantalones-cortos.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="New"
+                                           FontFamily="Lemon"
+                                           TextColor="{StaticResource Primario}"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                            <Frame HeightRequest="85"
+                                   WidthRequest="120"
+                                   Padding="5">
+                                <StackLayout Orientation="Horizontal">
+                                    <ImageButton Source="https://i.ibb.co/ZHZxT40/reloj-de-pulsera-1.png"
+                                                 HorizontalOptions="Center" />
+                                    <Label Text="New"
+                                           FontFamily="Lemon"
+                                           TextColor="{StaticResource Primario}"
+                                           FontSize="10" />
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"
+                             Padding="15,0,15,5">
+                    <Label Text="Todos los Productos"
+                           TextColor="{StaticResource Primario}"
+                           FontFamily="Lemon" />
+                    <ScrollView Orientation="Vertical">
+                        <StackLayout Orientation="Vertical"
+                                     Spacing="10">
+                            <!-- Primera fila de productos -->
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <!-- Segunda fila de productos -->
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="StartAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                                <Frame HeightRequest="100"
+                                       WidthRequest="170"
+                                       Padding="5"
+                                       HorizontalOptions="EndAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <ImageButton Source="https://i.ibb.co/pnC1DYf/saltador.png"
+                                                     HorizontalOptions="Center" />
+                                        <Label Text="New"
+                                               FontFamily="Lemon"
+                                               TextColor="{StaticResource Primario}"
+                                               FontSize="10" />
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <!-- Añadir más filas según sea necesario -->
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

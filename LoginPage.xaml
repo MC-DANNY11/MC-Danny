@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MC_Danny.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Padding="0"
+                 Orientation="Vertical"
+                 BackgroundColor="#0FB600">
+        <StackLayout VerticalOptions="Center" Margin="0,30,0,0">
+            <Image Source="https://i.ibb.co/GCrLFBk/Group-61.png"
+                   HeightRequest="250"
+                   WidthRequest="250" VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand">
+            <Border BackgroundColor="White" 
+                   HeightRequest="450" Padding="30">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="40,40,0,0" />
+                </Border.StrokeShape>
+                <StackLayout>
+                    <Label Text="Inicio de Sesión"
+                           FontSize="22"
+                           HorizontalOptions="Center"
+                           TextColor="{StaticResource Primario}"
+                           FontFamily="Lemon"
+                           Margin="0,0,0,20"/>
+                    <Label Text="Usuario"
+                           FontSize="18"
+                           FontFamily="Bold"
+                           TextColor="{StaticResource Primario}"/>
+                    <Frame Padding="7,0,7,0"
+                           CornerRadius="15" Margin="0,0,0,10"
+                           BorderColor="{StaticResource Primario}" >
+                        <Entry x:Name="UsernameEntry"
+                               Placeholder="Usuario"
+                               PlaceholderColor="Gray"
+                               TextColor="DarkSlateGray"
+                               FontFamily="Bold"/>
+                    </Frame>
+                    <Label Text="Contraseña"
+                           FontSize="18"
+                           FontFamily="Bold"
+                           TextColor="{StaticResource Primario}" />
+                    <Frame Padding="7,0,7,0"
+                           CornerRadius="15"
+                           Margin="0,0,0,15"
+                           BorderColor="{StaticResource Primario}">
+                        <Entry x:Name="PasswordEntry"
+                               Placeholder="Contraseña"
+                               IsPassword="True" PlaceholderColor="Gray"
+                               TextColor="DarkSlateGray"
+                               FontFamily="Bold"
+                               />
+                    </Frame>
+                    <Label TextColor="Blue" Margin="0,0,0,15" HorizontalOptions="EndAndExpand">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="¿Olvidaste tu Contraseña?"
+                                      TextColor="Blue"
+                                      TextDecorations="Underline"
+                                      FontFamily="Bold"
+                                      FontSize="15">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer />
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button Text="Iniciar sesión"
+                            Clicked="OnLoginClicked"
+                            BackgroundColor="{StaticResource Primario}"
+                            FontFamily="Lemon"
+                            CornerRadius="25"
+                            Margin="0"  TextColor="White"/>
+                    <StackLayout Orientation="Vertical"
+                                 HorizontalOptions="CenterAndExpand">
+                        <Label TextColor="Blue" Margin="0,15,0,0">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="¿No tienes una cuenta? " TextColor="Blue"/>
+                                    <Span Text="Registrarse"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline"
+                                          FontFamily="Lemon" >
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer  />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Border>
+            
+        </StackLayout>
+       
+    </StackLayout>
+</ContentPage>

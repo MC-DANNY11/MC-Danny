@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MC_Danny
+build_property.ProjectDir = C:\Users\MULLISACA\source\repos\MC Danny\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/MULLISACA/source/repos/MC Danny/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/MainFlyoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.MainFlyoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainFlyoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainFlyoutPage.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Ayuda.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Ayuda.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Ayuda.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Ayuda.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Carrito.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Carrito.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Carrito.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Carrito.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Config.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Config.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Config.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Config.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Contraseña.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Contraseña.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Contraseña.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Contraseña.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Inicio.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Inicio.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Inicio.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Inicio.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Pedidos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Pedidos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Pedidos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Pedidos.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Perfil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Perfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Perfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Perfil.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Reloj.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Reloj.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Reloj.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Reloj.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Ropa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Ropa.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Ropa.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Ropa.xaml
+
+[C:/Users/MULLISACA/source/repos/MC Danny/Views/V_Zapato.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MC_Danny.Views.V_Zapato.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\V_Zapato.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\V_Zapato.xaml

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:MC_Danny.Views"
+            x:Class="MC_Danny.Views.MainFlyoutPage">
+    <!-- Definir el Menú Lateral -->
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menú">
+            <StackLayout Padding="10">
+                <Button Text="Inicio"
+                        Clicked="OnInicioClicked" />
+                <Button Text="Ropa"
+                        Clicked="OnRopaClicked" />
+                <Button Text="Carrito"
+                        Clicked="OnCarritoClicked" />
+                <Button Text="Zapatos"
+                        Clicked="OnZapatosClicked" />
+                <Button Text="Reloj"
+                        Clicked="OnRelojClicked" />
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    <!-- Definir el Contenido Principal (se inicia con la página de inicio) -->
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:V_Inicio />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

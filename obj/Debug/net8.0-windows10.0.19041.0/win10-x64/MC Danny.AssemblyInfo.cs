@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MC Danny")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+555a125a6922d8792611d2eabdac0fec1a3fc771")]
 [assembly: System.Reflection.AssemblyProductAttribute("MC Danny")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MC Danny")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

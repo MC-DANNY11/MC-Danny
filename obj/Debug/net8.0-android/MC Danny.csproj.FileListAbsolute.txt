@@ -1050,3 +1050,8 @@ C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\resizetizer\r\
 C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\icono_background.png
 C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\icono_background.png
 C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\icono_background.png
+C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\MC Danny.sourcelink.json
+C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.Bson.dll
+C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.Bson.pdb
+C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\MULLISACA\source\repos\MC Danny\obj\Debug\net8.0-android\android\assets\System.Net.Http.Formatting.dll

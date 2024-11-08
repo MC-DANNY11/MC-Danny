@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\services\\destinosevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:services\\destinosevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\mc danny.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:mc danny.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\v_inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\v_inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\v_inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\v_inicio.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\v_inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\v_inicio.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\v_ropa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\v_ropa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\v_ropa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\v_ropa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\mc danny.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:mc danny.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:views\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|c:\\users\\mullisaca\\source\\repos\\mc danny\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB790D7E-22DE-45C3-9AC5-0DE9A1DE9F7B}|MC Danny.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuPage.xaml",
-              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\MenuPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
-              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\MenuPage.xaml",
-              "RelativeToolTip": "Views\\MenuPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-21T01:26:31.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-21T01:16:00.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MC Danny.csproj",
               "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\MC Danny.csproj",
               "RelativeDocumentMoniker": "MC Danny.csproj",
@@ -77,39 +63,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-20T19:17:25.526Z"
+              "DocumentIndex": 1,
+              "Title": "Destino.cs",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Models\\Destino.cs",
+              "RelativeDocumentMoniker": "Models\\Destino.cs",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Models\\Destino.cs",
+              "RelativeToolTip": "Models\\Destino.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:38:20.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "V_Inicio.xaml",
               "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Inicio.xaml",
               "RelativeDocumentMoniker": "Views\\V_Inicio.xaml",
               "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Inicio.xaml",
               "RelativeToolTip": "Views\\V_Inicio.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAxAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-20T00:05:19.057Z"
+              "WhenOpened": "2024-09-20T00:05:19.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "V_Inicio.xaml.cs",
               "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Inicio.xaml.cs",
               "RelativeDocumentMoniker": "Views\\V_Inicio.xaml.cs",
               "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Inicio.xaml.cs",
               "RelativeToolTip": "Views\\V_Inicio.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBoAAABYAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T22:51:41.758Z"
+              "WhenOpened": "2024-09-19T22:51:41.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestinoSevice.cs",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Services\\DestinoSevice.cs",
+              "RelativeDocumentMoniker": "Services\\DestinoSevice.cs",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Services\\DestinoSevice.cs",
+              "RelativeToolTip": "Services\\DestinoSevice.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:33:27.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "V_Ropa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Ropa.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\V_Ropa.xaml.cs",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Ropa.xaml.cs",
+              "RelativeToolTip": "Views\\V_Ropa.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:53:34.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "V_Ropa.xaml",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Ropa.xaml",
+              "RelativeDocumentMoniker": "Views\\V_Ropa.xaml",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\V_Ropa.xaml",
+              "RelativeToolTip": "Views\\V_Ropa.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-28T01:45:45.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T01:16:00.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\MenuPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MenuPage.xaml",
+              "ToolTip": "C:\\Users\\MULLISACA\\source\\repos\\MC Danny\\Views\\MenuPage.xaml",
+              "RelativeToolTip": "Views\\MenuPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T01:26:31.094Z",
+              "EditorCaption": ""
             }
           ]
         }
